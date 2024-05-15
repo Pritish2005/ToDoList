@@ -30,7 +30,7 @@ function App() {
       )
     );
   };
-  console.log("Too Mapping")
+  console.log("Todo Mapping")
   todos.map((todo)=>(
     console.log(todo)
   ))
@@ -49,7 +49,7 @@ function App() {
    <>
    <TodoProvider value={{todos,addTodo,updateTodo,deleteTodo,toggleCompleted}}>
    <div className=" min-h-screen bg-slate-900 py-10">
-      <div className=" bg-slate-700 max-w-3xl w-2/5 mx-auto p-3 flex justify-center rounded-lg text-white flex-col items-center mb-3">
+      <div className=" bg-slate-700 max-w-2xl w-full mx-auto p-3 flex justify-center rounded-lg text-white flex-col items-center mb-3">
         <h1 className='text-3xl font-bold my-4'>Enter your Tasks here</h1>
         <InputForm/>
       </div>
